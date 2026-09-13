@@ -3,4 +3,5 @@ project(task2_dilation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(dilation main.cpp)
+add_executable(dilation dilation.cpp)
+add_executable(morphology morphology.cpp)
